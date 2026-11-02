@@ -1,0 +1,81 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# ==============================
+# IDE
+# ==============================
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+
+# ==============================
+# Environment and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+token.json
+
+# ==============================
+# Application settings
+# ==============================
+settings.ini
+config.local.ini
+*.sqlite
+*.sqlite3
+*.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+crash.log
+
+# ==============================
+# PyInstaller
+# ==============================
+*.spec
+*.manifest
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.old
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Qt
+# ==============================
+.qt/
+.qt-for-python/
